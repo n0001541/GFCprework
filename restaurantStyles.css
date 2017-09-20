@@ -1,0 +1,11 @@
+a, input {
+    color:darkslategray; padding: 5px;
+}
+h1 {
+    font-size: 40px;
+    color: seagreen
+}
+.phone {
+    font-weight: bold;
+    color: seagreen
+}
