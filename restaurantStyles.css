@@ -9,3 +9,6 @@ h1 {
     font-weight: bold;
     color: seagreen
 }
+.required {
+    font-weight: bold
+}
