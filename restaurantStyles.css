@@ -1,15 +1,30 @@
-a, input {
-    color:darkslategray; padding: 5px;
+input {
+    padding: 5px;
+    color: black;
 }
 h1 {
     font-family: "Lucida Sans" , 'Lucida Sans', sans-serif;
     font-size: 40px;
-    color: seagreen
+    color: seagreen;
 }
 .phone {
     font-weight: bold;
-    color: seagreen
+    color: seagreen;
 }
 .required {
-    font-weight: bold
+    font-weight: bold;
 }
+a:link {
+    text-decoration:none;
+    color: black
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
+
