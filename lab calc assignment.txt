@@ -1,0 +1,11 @@
+div height=150
+width=400
+margin=20
+border=1
+padding=10
+
+total height:150+20+20+1+1+10+10=212px
+total width: 400+20+20+1+1+10+10=462px
+
+browser height: 150+1+1+10+10=172px
+browser width: 400+1+1+10+10=422px
