@@ -2,6 +2,7 @@ a, input {
     color:darkslategray; padding: 5px;
 }
 h1 {
+    font-family: "Lucida Sans" , 'Lucida Sans', sans-serif;
     font-size: 40px;
     color: seagreen
 }
