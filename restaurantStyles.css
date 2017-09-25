@@ -19,7 +19,7 @@ a:link {
     color: black
 }
 a:visited {
-    color: red;
+    color: gray;
 }
 a:hover {
     font-weight: bold;

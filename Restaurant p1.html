@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+
    <title>Restaurant Home Page</title>
+
    <style>
    .description {
        max-width: 400px;
        height: 270px;
        border: 1px solid black;
+       align-content: center;
    }
    section {
        background-color:#B1CAB1;
        }
+       .jumbotron {
+           background-color:bisque;
+           height: 150px;
+           text-align: center;
+       }
    </style>
 </head>
 <body>
+    <div class="container">
     <font face="comic sans MS">
         <h1 align="center">Fire Fly Diner</h1>
         <hr>
-        <a href="Restaurant p1.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="Contactrestaurant.html">Contact Us</a>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="Restaurant p1.html"><i class="glyphicon glyphicon-home">Home</i></a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="Contactrestaurant.html">Contact Us</a></li>
+        </ul>
         <section>
             <hr>
-        <div style="text-align: center;"><img src="images1/firefly.PNG" alt="Dinerpicture" height="150" width="400"></div>
-        <center>
+            <table class="table-responsive">
+            <div class="jumbotron">
+                <h3>New location opening in Portsmouth!</h3>
+            </div>
+            <center>
+                <img src="images1/firefly.PNG" class="img-responsive" alt="Dinerpicture" height="150" width="400">
+
         <div class="description">
             <h5 align="left">Restaurant Description</h5>
             <p align="left">
                     This restaurant has been in business for over five years and run by a very energetic woman named Beth Cavanagh. It is definitely a family and friends run business. Many times you will see Beth joined by her two sons, Joey and Cam, in the kitchen. The restaurant prides iteself on being able to serve breakfast all day (from 6:30am to 2:30pm).  It also serves a variety of wonderful comfort foods, some even gluten free :)
             </p>
         </div>
+    </table>
         <hr>
     </section>
     </center>
     <p class="phone" align="center">435 US-1, Kittery, ME 03904</p>
     <p class="phone" align="center">(207) 752-1120</p>
 </font>
+</div>
     </body> 
 </html>
